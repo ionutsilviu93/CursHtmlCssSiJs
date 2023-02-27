@@ -1,5 +1,5 @@
 let display=document.getElementById("screen");
-function clear(){
+function clearr(){
 var reset = document.getElementById("screen");
 reset.value='0';
 }
