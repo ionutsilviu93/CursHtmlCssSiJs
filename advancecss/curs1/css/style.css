@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-style: italic;
+    text-align: center;
+}
+div{
+    border-color: red;
+    border-style: double;
+    border-width: 5px;
+}
+div:not(#mydiv2){
+    background-color: aqua;
+}
+
+#mydiv2{
+    width: 30%;
+    max-width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.mydiv{
+    margin:25px 20px;
+    padding: 15px;
+}
