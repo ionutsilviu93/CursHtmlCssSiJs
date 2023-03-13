@@ -24,7 +24,14 @@ div:not(#mydiv2){
     height: 400px;
     overflow: hidden;
 }
-.mydiv{
+
+.mydiv3{
+    font-size: 32px;
+    box-shadow: 20px;
+    color: blue;
+}
+div.mydiv{
     margin:25px 20px;
     padding: 15px;
+    color:red
 }

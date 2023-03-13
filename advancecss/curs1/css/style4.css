@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+div{
+    border: 2px red double;
+    margin:20px;
+    padding: 15px;
+}
+body > div{
+    background-color: blueviolet;
+}
+div > div{
+    background-color: bisque;
+}
+div > div > div {
+    background-color: aquamarine;
+}
+p + div{
+    color: red;
+}
+div div div p{
+    color: blue;
+}
